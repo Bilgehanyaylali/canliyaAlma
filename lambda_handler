@@ -1,0 +1,15 @@
+
+lambda_handler ({
+  "queryStringParameters": {
+    "age": "12",
+    "sex": "0",
+    "bmi": "22.5",
+    "children": "2",
+    "smoker": "0",
+    "region": "2"
+  },
+  "headers": {
+    "origin": "https://example.com"
+  }
+}, None)
+
