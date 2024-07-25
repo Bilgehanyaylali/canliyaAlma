@@ -7,6 +7,8 @@ COPY requirements.txt ${LAMBDA_TASK_ROOT}
 # Copy function code
 COPY lambda_function.py ${LAMBDA_TASK_ROOT}
 
+COPY model.pkl ${LAMBDA_TASK_ROOT}
+
 # Install the specified packages
 RUN pip install --no-cache-dir -r requirements.txt
 
